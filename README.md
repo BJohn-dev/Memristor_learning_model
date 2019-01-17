@@ -15,4 +15,5 @@ Besides, by simply adding a reverse-input memristor crossbar, the stability of t
 Tried out single epoch with 20000 MNIST data, 
 and got about 50~60% accuracy.
 
-
+### Memristance distribution after learning process
+![alt Memristance distribution after learning process](https://raw.githubusercontent.com/flninja12/Memristor_learning_model/master/image.png)
