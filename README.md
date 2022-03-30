@@ -1,19 +1,19 @@
 # Memristor learning model
-Building memristor model and simulate learning circuit by python.
-Inspired by the Spike learning method using STDP(Spike-Time dependency plasticity) material, which is memristor.
+Built memristor model and simulated learning circuit with python.
+Inspired by Spike learning method using STDP(Spike-Time dependency plasticity) material, which is called memristor.
 
 ### Goal
-In this github, we aimed to build a learning model to classify MNIST dataset by using Memristor model.
-By composing memristors to a crossbar architecture, It is actually similar to the layer of Artificial Neural Network.
+In this repository, we aimed to build a model to classify MNIST dataset by using Memristor grid model.
+Composing memristors into a crossbar architecture, It is actually similar to the layer used in Artificial Neural Network.
 
 ### SADP (with a reverse circuit)
-Since memristance variation changes by the amplitude of input-spike,
+Since memristance changes according to the amplitude of input-spike,
 model could learn things by using SADP(Spike-Amplitude dependency plasticity).
-Besides, by simply adding a reverse-input memristor crossbar, the stability of the output got better.  
+Besides, by simply adding a reverse-input memristor crossbar, we achieved certain stability of the output.  
 
 ### Output
 Tried out single epoch with 20000 MNIST data, 
 and got about 50~60% accuracy.
 
-### Memristance distribution after learning process
+### Memristance(conductivity) distribution after learning process
 ![alt Memristance distribution after learning process](https://raw.githubusercontent.com/flninja12/Memristor_learning_model/master/image.png)
